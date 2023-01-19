@@ -1,0 +1,55 @@
+button {
+    display: block;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    transition: border-radius .3s .2s;
+}
+
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#seven:hover,
+#eight:hover {
+    border-radius: 30% 60% 70% 40%;
+    color: blue;
+    background-color: bisque;
+    width: 70px;
+    height: 70px;
+    font-size: medium;
+}
+
+#one {
+    border-radius: 10% 10% 90% 90%;
+}
+
+#two {
+    border-radius: 40% 70% 20% 30%;
+}
+
+#three {
+    border-radius: 90% 5% 95% 10%;
+}
+
+#four {
+    border-radius: 70% 30% 30% 70%;
+}
+
+#five {
+    border-radius: 50% 50% 1% 1%;
+}
+
+#six {
+    border-radius: 40% 70% 20% 30%;
+}
+
+#seven {
+    border-radius: 5% 90% 95% 10%;
+}
+
+#eight {
+    border-radius: 50% 50% 50% 50%;
+}
